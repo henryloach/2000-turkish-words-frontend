@@ -41,7 +41,7 @@
     >Previous</button
   >
   <button on:click={goToNextCard} disabled={parseInt(cardId) >= 2000}
-  >Previous</button
+  >Next</button
 >
 {:else if error}
   <p>Error: {error}</p>
